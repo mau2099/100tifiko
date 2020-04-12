@@ -4,7 +4,8 @@
   "description": "Single Page Application - Using JS Vanilla - Platzi - Agente Puntoycoma",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
   },
   "keywords": [
     "javascript",
@@ -12,5 +13,13 @@
     "SPA"
   ],
   "author": "mauricio garcia",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "babel-loader": "^8.1.0",
+    "html-webpack-plugin": "^4.2.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
 }
