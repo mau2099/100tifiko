@@ -1,4 +1,5 @@
 # SPA - Single Page Application
+Made with Vanilla Javascript
 
 ## How to run
 ``` 
